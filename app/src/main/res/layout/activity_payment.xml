@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".payment">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:scaleType="fitStart"
+        android:src="@drawable/_0230125_072431_0000"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:text="payment successful"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:paddingRight="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:text="happy riding"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stdstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:text="payment successful"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:textSize="4sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

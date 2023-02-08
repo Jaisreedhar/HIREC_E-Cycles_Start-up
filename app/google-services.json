@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226343385033",
+    "project_id": "hirec-b6832",
+    "storage_bucket": "hirec-b6832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226343385033:android:69d815f3b2771495ac9a18",
+        "android_client_info": {
+          "package_name": "com.example.hirec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226343385033-dha292vhkt96mch1qk4l9ho659p82mn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfeBnSrap5es2RPUj_qDsT3LytLqVGa14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226343385033-dha292vhkt96mch1qk4l9ho659p82mn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

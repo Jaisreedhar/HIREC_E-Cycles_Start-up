@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".contactjava">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="contact"
+        android:textColor="#9C27B0"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="TO"
+        android:textColor="#9C27B0"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/toEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="1"
+        android:textColor="@color/white"
+        android:minHeight="48dp"
+        android:textSize="22sp"
+        android:text="hirec@rajalakshmi.edu.in" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subject"
+        android:textAllCaps="true"
+        android:textColor="#9C27B0"
+        android:layout_margin="16dp"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Subject"
+
+        android:minHeight="48dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message"
+        android:textColor="#9C27B0"
+        android:textAllCaps="true"
+        android:layout_margin="16dp"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:gravity="start|top"
+        android:hint="Type your message here" />
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:background="#B864C6" />
+
+</LinearLayout>

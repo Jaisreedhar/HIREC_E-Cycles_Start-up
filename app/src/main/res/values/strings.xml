@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HIREC</string>
+    <string name="sign_out">sign-out</string>
+    <string name="welcome">welcome</string>
+    <string name="user_email">user email</string>
+    <string name="login_or_sign_up">login or sign-up</string>
+    <string name="email">Email</string>
+    <string name="sign_in">sign-in</string>
+    <string name="password">password</string>
+    <string name="title_activity_contents">contents</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_mail">user mail</string>
+    <string name="home">HOME</string>
+    <string name="rent">RENT</string>
+    <string name="buy">BUY</string>
+    <string name="gallery">GALLERY</string>
+    <string name="logout">LOGOUT</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="share_us">SHARE US</string>
+    <string name="communicate">COMMUNICATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan">scan</string>
+</resources>

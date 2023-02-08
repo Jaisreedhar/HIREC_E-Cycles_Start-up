@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".homefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:src="@drawable/scrlogo" />
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/teal_700"
+
+        android:paddingTop="20dp" />
+
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:background="@color/purple_500"
+        android:paddingLeft="126dp"
+        android:textColor="#7CB342"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/rentcycle"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="#6200EE"
+        android:text="Rent E-cycle"
+        android:textColor="#7CB342"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+</FrameLayout>

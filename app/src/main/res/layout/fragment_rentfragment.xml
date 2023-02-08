@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:id="@+id/rentfragment"
+    tools:context=".rentfragment">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp">
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="400dp"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:id="@+id/imageView5"
+           android:layout_width="400dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="right"
+           android:paddingLeft="20dp"
+           android:paddingTop="15dp"
+           android:layout_marginRight="20dp"
+
+           android:src="@drawable/screenshot_20221102_205952" />
+
+       <ImageView
+           android:id="@+id/imageView6"
+           android:layout_width="400dp"
+           android:layout_height="wrap_content"
+
+           android:src="@drawable/felidae_electric_maven_e_bike_e_cycle"
+           android:paddingTop="15dp"
+           android:paddingLeft="20dp"/>
+       <ImageView
+           android:id="@+id/imageView7"
+           android:layout_width="400dp"
+           android:layout_height="wrap_content"
+
+
+           android:src="@drawable/felidae_electric_maven_e_bike_e_cycle_3"
+           android:paddingTop="15dp"
+           android:paddingLeft="20dp"/>
+
+   </LinearLayout>
+    </HorizontalScrollView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Scan the QR code available on the cycle
+to rent the E-cycle"
+       android:textSize="23sp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:padding="10dp"
+       android:layout_marginTop="410dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scan QR code "
+        android:background="#E5E9ED"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="520dp"
+        android:id="@+id/scanqr"/>
+</FrameLayout>

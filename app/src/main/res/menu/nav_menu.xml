@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools= "http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/nav_rent"
+        android:icon="@drawable/ic_baseline_pedal_bike_24"
+        android:title="@string/rent"/>
+    <item
+        android:id="@+id/nav_buy"
+        android:icon="@drawable/ic_baseline_campaign_24"
+        android:title="BUY/CONVERT"/>
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/gallery"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="@string/logout"/>
+
+    <item
+
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_baseline_contact_mail_24"
+        android:title="@string/contact_us"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="ABOUT"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share_us"/>
+
+
+
+</group>
+
+</menu>

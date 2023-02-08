@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E3E3"
+    tools:context=".infofragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screenshot_2022_09_02_170730"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="300dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginVertical="10dp"
+
+            android:text="HIREC is a students’ Start-up of Rajalakshmi Engineering College (Autonomous), Chennai, registered under the Ministry of Micro, Small and Medium Enterprises(MSME), Government of India. It aims at designing and installing a charging station and providing E-cycles for rent, for easy commutation to the students and faculty members of Rajalakshmi Engineering College (Autonomous), Chennai. The start-up is supported by the Centre of Excellence in Electric Vehicles, co-ordinated by the Department of Electrical and Electronics Engineering. A committee consisting of one faculty member and eleven students has been formed to manage the start-up. It is operational in the Rajalakshmi Engineering College, within the campus, from 16th March 2022.  "
+            android:textAlignment="center"
+            android:textColor="#C70AE6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="300dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginVertical="10dp"
+            android:text="Our New Venture:
+We are proud and happy to announce our new venture - HIREC E-CYCLE CONVERSION which aims at converting normal cycles to E-cycles for better efficiency and to overcome the problem of increasing fuel prices at an affordable price.
+Also, we’re dealers for branded E-cycles of all major brands."
+            android:textAlignment="center"
+            android:textColor="#C70AE6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginVertical="10dp"
+            android:text="This Start-up has been initiated by Mr.Jainam.S.Mardia of EEE Dept. (2024 batch) and the mobile application has been developed by Mr.Jai Sreedhar.G of EEE Dept. (2024 batch)"
+            android:textAlignment="center"
+            android:textColor="#EA0D58"
+
+
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

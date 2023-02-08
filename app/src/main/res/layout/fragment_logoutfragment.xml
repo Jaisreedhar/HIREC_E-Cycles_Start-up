@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".logoutfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="300dp"
+        android:background="@color/white"
+        android:text="Sign-out"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/screenshot_2022_09_02_170730"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="177dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#9C27B0"
+        android:text="logout"></Button>
+
+
+
+</FrameLayout>

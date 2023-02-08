@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".payment">
+
+    <EditText
+        android:id="@+id/stdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:hint="name"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/stdContactno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:hint="contact no"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please fill the details to procede for the payment"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent E-cycle @rs10 for 15min"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/saveData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent E-cycle @rs25 for 30min"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/saveData25"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent E-cycle @rs50 for 60min"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/saveData50"/>
+
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>

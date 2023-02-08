@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/galleryfragment">
+
+    <activity
+        android:id="@+id/wpage"
+        android:name="com.example.hirec.wpage"
+        android:label="activity_wpage"
+        tools:layout="@layout/activity_wpage" />
+    <fragment
+        android:id="@+id/rentfragment"
+        android:name="com.example.hirec.rentfragment"
+        android:label="fragment_rentfragment"
+        tools:layout="@layout/fragment_rentfragment" />
+    <fragment
+        android:id="@+id/buyfragment"
+        android:name="com.example.hirec.buyfragment"
+        android:label="fragment_buyfragment"
+        tools:layout="@layout/fragment_buyfragment" />
+    <fragment
+        android:id="@+id/contactfragment"
+        android:name="com.example.hirec.contactfragment"
+        android:label="fragment_contactfragment"
+        tools:layout="@layout/fragment_contactfragment" />
+    <fragment
+        android:id="@+id/logoutfragment"
+        android:name="com.example.hirec.logoutfragment"
+        android:label="fragment_logoutfragment"
+        tools:layout="@layout/fragment_logoutfragment" />
+    <fragment
+        android:id="@+id/homefragment2"
+        android:name="com.example.hirec.homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/galleryfragment"
+        android:name="com.example.hirec.galleryfragment"
+        android:label="fragment_galleryfragment"
+        tools:layout="@layout/fragment_galleryfragment" />
+</navigation>
