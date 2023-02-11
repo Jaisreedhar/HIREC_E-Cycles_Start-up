@@ -47,6 +47,22 @@ Also, we’re dealers for branded E-cycles of all major brands."
             android:textColor="#C70AE6"
             android:textSize="22sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="300dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginVertical="10dp"
+            android:text="A special Thanks to the Management and all the Teaching and Non-Teaching Staff Members of Rajalakshmi Engineering College and Department of Electrical and Electronics Engineering for the Constant Support and motivation.
+A special Thanks to COE-EV and COE-RE.  "
+            android:textAlignment="center"
+            android:textColor="#C70AE6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

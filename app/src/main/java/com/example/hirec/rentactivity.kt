@@ -9,7 +9,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.budiyev.android.codescanner.*
 
-val s1 = "jai"
+val s1 = "hirec"
 private const val CAMERA_REQUEST_CODE=101
 private var backpresstime = 0L
 //private val tvtextview = (R.id.tv_textview)

@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="112dp"
 
         android:layout_marginTop="33dp"
         android:layout_marginBottom="19dp"
@@ -90,7 +90,7 @@ Rajalakshmi Engineering College"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
 
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
         android:backgroundTint="#6200EE"
         android:text="Click here to follow us on Instagram"

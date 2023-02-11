@@ -143,7 +143,9 @@
         </activity>
         <meta-data
             android:name="com.razorpay.ApiKey"
-
+            android:value="rzp_test_Lgf2ygnM7IBBtc"/>
+        //rzp_live_juD5hhUS6uuk0U//
+        //rzp_test_Lgf2ygnM7IBBtc//+
         <meta-data
             android:name="com.google.gsm.wallet.api.enabled"
             android:value="true"/>

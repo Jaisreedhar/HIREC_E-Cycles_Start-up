@@ -26,7 +26,7 @@ class paymentactivity : AppCompatActivity() {
         //StringReader StringRequest= new StringReader(Request)
         val stringRequest = StringRequest(
             Request.Method.GET, url,
-            { Toast.makeText(this@paymentactivity, "response", Toast.LENGTH_SHORT).show() }
+            { Toast.makeText(this@paymentactivity, "Payment successful", Toast.LENGTH_SHORT).show() }
         ) { Toast.makeText(this@paymentactivity, "error.getMessage", Toast.LENGTH_SHORT).show() }
 
         val queue = Volley.newRequestQueue(this)

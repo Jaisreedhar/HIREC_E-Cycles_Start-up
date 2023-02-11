@@ -2,6 +2,7 @@ package com.example.hirec
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.util.Patterns
 import android.widget.EditText
 import android.widget.Toast
@@ -68,6 +69,12 @@ class payment : AppCompatActivity(), PaymentResultListener {
               //  makepayment50()
 
         }
+    }
+    private fun addDelay() {
+        val handler = Handler()
+        handler.postDelayed({
+            // Your code to run after the delay
+        }, 1000) // Delay for 1000 milliseconds (1 second)
     }
 
     private fun makepayment1() {
@@ -169,12 +176,17 @@ class payment : AppCompatActivity(), PaymentResultListener {
                 //https://script.google.com/macros/s/AKfycbxxBXswezbp-fdeCFELbMbX50RWjA45PkPhDRF84wpZPPkAT6SV6N2Wz4eyIMocIz8/exec
                 //https://script.google.com/macros/s/AKfycbxxBXswezbp-fdeCFELbMbX50RWjA45PkPhDRF84wpZPPkAT6SV6N2Wz4eyIMocIz8/exec?action=create&name=dfghjkl&cno=12345678
                 url = url + "action=create&name=" + name +  "&amt=" + amt + "&cno=" + cno
+                Toast.makeText(this@payment,"Wait for the user to be added", Toast.LENGTH_SHORT).show()
                 //StringReader StringRequest= new StringReader(Request)
                 val StringRequest = StringRequest(
                     Request.Method.GET, url,
                     { response ->
                         //Toast.makeText(rentuserinfo.this,response,Toast.LENGTH_SHORT).show();
                         Toast.makeText(this@payment, response, Toast.LENGTH_SHORT).show()
+
+                        Toast.makeText(this@payment,"Choose your raiding plan", Toast.LENGTH_LONG,). show()
+
+
                         binding!!.saveData.setOnClickListener {
 
                                  makepayment1()
@@ -241,6 +253,8 @@ class payment : AppCompatActivity(), PaymentResultListener {
             "payment success $p0",
             Toast.LENGTH_SHORT
         ).show()
+
+        addDelay()
 
         startActivity(Intent(this, paymentactivity::class.java))
         finish()

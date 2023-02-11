@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.hirec.databinding.FragmentBuyfragmentBinding
 
 class buyfragment : Fragment() {
 
@@ -19,7 +18,7 @@ class buyfragment : Fragment() {
             View? {
 
 
-        val bind = FragmentBuyfragmentBinding.inflate(layoutInflater)
+        val bind = com.example.hirec.databinding.FragmentBuyfragmentBinding.inflate(layoutInflater)
 
         bind.buy.setOnClickListener {
             val inten = Intent(this@buyfragment.requireContext(), contactjava::class.java)

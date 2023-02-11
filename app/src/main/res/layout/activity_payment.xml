@@ -6,6 +6,7 @@
     android:background="@color/black"
     android:layout_height="match_parent"
     tools:context=".payment">
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,19 +16,21 @@
         android:src="@drawable/_0230125_072431_0000"
         android:paddingTop="15dp"
         android:paddingLeft="20dp"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="384dp"
         android:gravity="center"
-        android:layout_marginTop="380dp"
-        android:layout_marginLeft="20dp"
-        android:text="payment successful"
+        android:paddingRight="15dp"
+        android:text="Payment Successful"
         android:textColor="@color/white"
         android:textSize="38sp"
-        android:paddingRight="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -35,7 +38,7 @@
         android:gravity="center"
         android:layout_marginTop="450dp"
         android:layout_marginLeft="80dp"
-        android:text="happy riding"
+        android:text="Happy Riding"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"

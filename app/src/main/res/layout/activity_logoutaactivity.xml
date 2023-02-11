@@ -61,7 +61,8 @@
             android:layout_marginLeft="90dp"
             android:layout_marginTop="200dp"
             android:backgroundTint="#9C27B0"
-            android:text="log-out" />
+            android:text="log-out"
+            android:textAllCaps="true"/>
 
 
     </LinearLayout>

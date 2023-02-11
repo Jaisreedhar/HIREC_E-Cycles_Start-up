@@ -21,7 +21,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="100dp"
-        android:background="@color/teal_700"
+        android:background="@color/teal_200"
 
         android:paddingTop="20dp" />
 

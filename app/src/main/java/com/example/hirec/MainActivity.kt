@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
                         if (task.isSuccessful) {
                             user.currentUser?.sendEmailVerification()
                                 ?.addOnCompleteListener {
-                                    Toast.makeText(this, "please verify profile using email", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(this, "please verify profile using email", Toast.LENGTH_LONG).show()
 
 
                                 }
@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
                                 finish()
                             }else{
                                 Toast.makeText(this, "verify your identity ", Toast.LENGTH_SHORT).show()
-                                Toast.makeText(this, "please check your Email", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(this, "please check your Email", Toast.LENGTH_LONG).show()
                             }
 
 
@@ -140,7 +140,7 @@ class MainActivity : AppCompatActivity() {
                                             startActivity(Intent(this, wpage::class.java))
                                             finish()
                                         }else{
-                                            Toast.makeText(this, "verify your identity", Toast.LENGTH_SHORT).show()
+                                            Toast.makeText(this, "verify your identity", Toast.LENGTH_LONG).show()
                                         }
 
                                     } else {
@@ -158,7 +158,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
             } else {
-                Toast.makeText(this, "this fields cannot be empty", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "this fields cannot be empty", Toast.LENGTH_LONG).show()
             }
         }
 
