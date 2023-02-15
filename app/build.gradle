@@ -13,7 +13,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.hirec"
+        applicationId "com.hirec.android.yts"
         minSdk 26
         targetSdk 33
         versionCode 1

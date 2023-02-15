@@ -20,6 +20,13 @@
         android:theme="@style/Theme.HIREC"
         tools:targetApi="31">
         <activity
+            android:name=".rentactivity1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".payment"
             android:exported="false">
             <meta-data
@@ -50,13 +57,6 @@
         </activity>
         <activity
             android:name=".rentactivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".rentactivity1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -141,14 +141,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_Lgf2ygnM7IBBtc"/>
-        //rzp_live_juD5hhUS6uuk0U//
-        //rzp_test_Lgf2ygnM7IBBtc//+
+            android:value="rzp_live_juD5hhUS6uuk0U" />
         <meta-data
             android:name="com.google.gsm.wallet.api.enabled"
-            android:value="true"/>
+            android:value="true" />
     </application>
 
 </manifest>
